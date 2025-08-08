@@ -1,3 +1,5 @@
+package sintaxe;
+
 import java.util.Scanner;
 
 public class ContaTerminal {
