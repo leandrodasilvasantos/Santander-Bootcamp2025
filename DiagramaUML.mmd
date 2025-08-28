@@ -1,0 +1,27 @@
+classDiagram
+direction TB
+    class NavegadorInternet {
+	    exibirPagina(String url)
+	    adicionarNovaAba()
+	    atualizarPagina()
+    }
+
+    class AparelhoTelefonico {
+	    ligar(String numero)
+	    atender()
+	    iniciarCorreioDeVoz()
+    }
+
+    class Iphone {
+    }
+
+    class ReprodutorMusical {
+	    Tocar()
+	    Pausar()
+	    SelecionarMusica(String musica)
+    }
+
+    Iphone -- AparelhoTelefonico
+    Iphone -- NavegadorInternet
+    Iphone -- ReprodutorMusical
+
